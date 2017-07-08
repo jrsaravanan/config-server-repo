@@ -1,1 +1,12 @@
 name: sai 
+spring.boot.admin.url: http://localhost:9999
+spring.cloud.config.uri: http://localhost:8888
+
+management.security.enabled: false
+server.port: 9090
+
+info.app.name: Person Sample Application 
+info.app.description: This is my first spring boot application
+info.app.version: 1.0.0
+
+hystrix.stream.endpoint.enabled: true
