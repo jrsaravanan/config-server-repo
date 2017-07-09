@@ -10,3 +10,4 @@ info.app.description: This is my first spring boot application
 info.app.version: 1.0.0
 
 hystrix.stream.endpoint.enabled: true
+DEPT_URI: http://dept:8080
